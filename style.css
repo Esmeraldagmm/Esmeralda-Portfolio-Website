@@ -125,13 +125,16 @@ body { /*general style for entire doc*/
 .contact { /*contact box*/
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    content: center;
+    justify-content: center;
+
 }
 
 .contact ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    justify-content: center;
     gap: 20px;
 }
 
