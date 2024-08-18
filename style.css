@@ -1,0 +1,154 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body { /*general style for entire doc*/
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(227, 213, 202); /*background for the entire page*/
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(213, 189, 175); /*navbar background color*/
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar li a:hover {
+    background-color:white;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(67, 40, 24); /*text color for the navbar links*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+.active {
+    background-color: rgb(240, 239, 235);
+}
+
+.main-heading { /*heading in home page*/
+    font-size: 36px;
+    color: rgb(67, 40, 24);
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.container {
+    text-align: center;
+    background-color: white; /*background color for the container*/
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px; /*rgba(0, 0, 0, 0.1);*/
+    max-width: 600px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.image-container { /*space between the image and the text below it*/
+    margin-bottom: 20px;
+}
+
+.image-container img { /*image*/
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text-container p {/*paragraph*/
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+
+#skills {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    max-width: 600px;
+    width: 90%;
+    margin-top: 20ox;
+    text-align: center;
+}
+
+.skills-section {
+    margin-bottom: 20px;
+}
+
+.skills-section h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills-row { /* images horizontally aligned */
+    display: flex; 
+    justify-content: center;
+    gap: 20px; /* Space between images */
+}
+
+.skills-row img {
+    background-color: rgb(240, 239, 235); /* Light grey background */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 80px;
+}
+
+
+.contact { /*contact box*/
+    display: flex;
+    list-style: none;
+}
+
+.contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contact li a {
+    display: block;
+    color: black; /*text color*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact a:hover {
+    background-color: rgb(240, 239, 235);
+}
